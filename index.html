@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Reveal.js Slides</title>
+  <!-- Reveal.js core CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css" id="theme">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <!-- The data-markdown attribute tells Reveal.js to load content from slides.md -->
+    <section data-markdown="slides.md"
+             data-separator="^---$"
+             data-separator-vertical="^\n\n"
+             data-separator-notes="^Note:"></section>
+  </div>
+</div>
+
+<!-- Reveal.js core JS -->
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+  Reveal.initialize({
+    // You can add your options here
+    hash: true, // Enable linking to individual slides
+  });
+</script>
+
+</body>
+</html>
